@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #fff5f8;
+    color: #333;
+}
+
+header {
+    background-color: #ffd6e0;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #a84a6d;
+}
+
+nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #a84a6d;
+    font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    text-align: center;
+    padding: 2rem;
+    background: linear-gradient(to bottom, #ffe6ec, #fff5f8);
+}
+
+.hero h2 {
+    font-size: 1.8rem;
+    max-width: 700px;
+    color: #a84a6d;
+}
+
+.name {
+    margin-top: 1rem;
+    font-style: italic;
+    color: #a84a6d;
+}
+
+.instagram-link {
+    margin-top: 2rem;
+    font-size: 2rem;
+    color: #a84a6d;
+}
+
+.quotes {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+.quotes h2 {
+    color: #a84a6d;
+    margin-bottom: 1rem;
+}
+
+.quotes ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.quotes li {
+    background-color: #ffe6ec;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    color: #5a2f3f;
+}
